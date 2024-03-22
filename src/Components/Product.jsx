@@ -28,7 +28,7 @@ const Product = ({ item, index }) => {
                       color: "Purple",
                       textAlign: "center",
                       fontFamily: "cursive",
-                      marginRight: "65px",
+                     
                       fontWeight: "bold",
                     }}
                   >
@@ -39,14 +39,14 @@ const Product = ({ item, index }) => {
                       color: "crimson",
                       textAlign: "center",
                       fontFamily: "cursive",
-                      marginRight: "65px",
+                      
                       fontWeight: "bold",
                     }}
                   >
                     {`Rs:${item.price}`}
                   </h5>
 
-                  <p style={{ marginRight: "55px", textAlign: "center" }}>
+                  <p style={{  textAlign: "center" }}>
                     {item.description}
                   </p>
                   <img src={item.images} width={"250px"} height={"250px"} />
