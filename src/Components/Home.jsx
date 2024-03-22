@@ -105,7 +105,7 @@ const Home = () => {
     {
       id: 8,
       title: "Lenovo Tab",
-      description: "Boat Airdopes 141 Bluetooth TWS Earbuds",
+      description: "Qualcomm Snapdragon 8+ Gen 1 processor",
       price: 3500,
       discountPercentage: 17.91,
       rating: 4.3,
@@ -119,7 +119,7 @@ const Home = () => {
     {
       id: 9,
       title: "Dell ",
-      description: "Boat Airdopes 141 Bluetooth TWS Earbuds",
+      description: "Laptops are designed to be computers",
       price: 2800,
       discountPercentage: 17.91,
       rating: 4.3,
