@@ -5,6 +5,10 @@ const CartPage = () => {
   const { cart, setCart } = useContext(cartContext);
   const [total, setTotal] = useState(0);
   
+  const removeItems = (id) => {
+    setCart(cart.filter((item) => item.id !== id));
+ }
+
   const totalPrice = cart.reduce(
     (total, cart) => total + cart.price * (cart.quantity || 1),
     0
@@ -109,6 +113,21 @@ const CartPage = () => {
                               height={"350px"}
                               style={{ marginTop: "20px" }}
                             />
+                            <button
+                              onClick={() => {
+                                removeItems(item.id);
+                              }}
+                              style={{
+                                color: "white",
+                                backgroundColor: "red",
+                                border: "none",
+                                borderRadius: "5px",
+                                padding: "5px 10px",
+                                marginTop:"20px"
+                              }}
+                            >
+                              Remove From Cart
+                            </button>
                           </div>
                         </div>
                         <br />

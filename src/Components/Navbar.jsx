@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { cartContext } from "../App";
-import CarouselPage from "./CarouselPage";
+
 
 const Navbar = () => {
   const { cart, setCart } = useContext(cartContext);
@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
       </nav>
       <br />
-      <CarouselPage />
+    
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Product from "./Product";
-
+import CarouselPage from "./CarouselPage";
 const Home = () => {
   const products = [
     {
@@ -134,6 +134,7 @@ const Home = () => {
   const [productValue, setProductValue] = useState(products);
   return (
     <div>
+      <CarouselPage />
       <div class="row row-cols-1 row-cols-md-3 g-4">
         {productValue.map((item, index) => {
           return (

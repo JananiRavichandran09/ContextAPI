@@ -11,6 +11,7 @@ const Product = ({ item, index }) => {
   };
   return (
     <div>
+    
       <div key={index}>
         <div className="container gy-3">
           <div
