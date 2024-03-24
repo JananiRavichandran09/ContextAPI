@@ -38,3 +38,29 @@
 </div>
 
 
+## ScreenShots 
+
+ + Browser will view the all the Home page products 
+ + Navigate to the cart page to view the cart products which are added in the cart
+ + While clicking **Continue shopping** it to move to the home page.
+
+### Screenshot 1  Viewing the default Home page  with products
+
+![image](./Images/Screenshot1.JPG)
+
+### Screenshot 2 
+
+![image](./Images/Screenshot2.JPG)
+
+### Screenshot 3
+
+![image](./Images/Screenshot3.JPG)
+
+### Screenshot 4 Viewing the cart items in the cart page 
+
+![image](./Images/Screenshot4.JPG)
+
+### Screenshot 5
+
+![image](./Images/Screenshot5.JPG)
+
